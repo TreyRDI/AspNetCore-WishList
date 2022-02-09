@@ -16,7 +16,8 @@ namespace WishList.Controllers
             return View("Index");
         }
 
-        public IActionResult Error() {
+        public IActionResult Error()
+        {
             return View("Error");
         }
     }
