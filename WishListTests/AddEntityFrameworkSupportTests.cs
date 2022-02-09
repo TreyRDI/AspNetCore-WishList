@@ -8,7 +8,7 @@ namespace WishListTests
         [Fact(DisplayName = "Configure EntityFramework @configure-entityframework")]
         public void ConfigureEntityFrameworkTest()
         {
-            var filePath = ".." + Path.DirectorySeparatorChar + "WishList" + Path.DirectorySeparatorChar + "Startup.cs";
+            var filePath = ".." + Path.DirectorySeparatorChar + ".." + Path.DirectorySeparatorChar + ".." + Path.DirectorySeparatorChar + ".." + Path.DirectorySeparatorChar + "WishList" + Path.DirectorySeparatorChar + "Startup.cs";
             string file;
             using (var streamReader = new StreamReader(filePath))
             {
